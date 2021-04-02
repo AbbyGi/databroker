@@ -28,7 +28,6 @@ setuptools.setup(
             "BlueskyRun = bluesky_catalog.client:BlueskyRun",
             "BlueskyEventStream = bluesky_catalog.client:BlueskyEventStream",
         ],
-        "tiled.custom_routers": ["documents = bluesky_catalog.server:router"],
     },
     extras_require=extras_require,
 )
