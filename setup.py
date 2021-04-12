@@ -25,6 +25,7 @@ setuptools.setup(
     name="bluesky_catalog",
     entry_points={
         "tiled.special_client": [
+            "CatalogOfBlueskyRuns = bluesky_catalog.client:CatalogOfBlueskyRuns",
             "BlueskyRun = bluesky_catalog.client:BlueskyRun",
             "BlueskyEventStream = bluesky_catalog.client:BlueskyEventStream",
         ],
